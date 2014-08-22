@@ -1,0 +1,39 @@
+extends ../shared/template
+block content
+  h3
+      .row
+        .col-xs-12
+          form(role='form', method='post', action='/trips')
+            .row
+            .col-xs-6
+              .form-group
+                label(for='name') Trip Name:
+                input.form-control#name(type='text', name='name', autofocus=true)
+              .form-group
+                label(for='cash') Cash:
+                input.form-control#car(type='currency', name='cash')
+              .form-group
+                label(for='begin') Beginning Location:
+                input.form-control#begin(type='text', name='begin')
+              .form-group
+                label(for='end') Ending Location:
+                input.form-control#end(type='text', name='end')
+              .form-group
+                label(for='mpg') MPG:
+                input.form-control#mpg(type='text', name='mpg')
+            .col-xs-6
+              .form-group
+                label(for='fromDate') From:
+                input.form-control#from(type='date', name='fromDate')
+              .form-group
+                label(for='toDate') To:
+                input.form-control#to(type='date', name='toDate')
+              .form-group
+                label(for='gas') Gas Cost:
+                input.form-control#gas(type='text', name='gas')
+              .form-group
+                label(for='photos') Add Photo:
+                input.form-control#photos(type='file', name='photos', multiple=true)
+              .form-group
+                
+                button.addtrip.btn.btn-success(type='submit') Add Trip

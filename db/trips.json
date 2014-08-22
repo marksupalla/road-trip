@@ -1,0 +1,41 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"West",
+  "money":3000,
+  "beginLat":20,
+  "beginLng":20,
+  "endLat":30,
+  "endLng":30,
+  "fromDate":{"$date":477295200000},
+  "toDate":{"$date":477295200000},
+  "photo":"http://images.com/west.jpg",
+  "gas":$3.00
+}
+
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"East",
+  "money":2000,
+  "beginLat":10,
+  "beginLng":10,
+  "endLat":80,
+  "endLng":80,
+  "fromDate":{"$date":477296600000},
+  "toDate":{"$date":477299900000},
+  "photo":"http://images.com/east.jpg",
+  "gas":$3.50
+}
+
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"South",
+  "money":1000,
+  "beginLat":20,
+  "beginLng":20,
+  "endLat":70,
+  "endLng":70,
+  "fromDate":{"$date":477295200000},
+  "toDate":{"$date":477295200000},
+  "photo":"http://images.com/bob.jpg",
+  "gas":$4.00
+}
